@@ -1,5 +1,4 @@
 
-
 import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
 
@@ -41,7 +40,7 @@ const Create = () => {
   };
 
   return (
-    <div className="container my-2" style={{ fontFamily: "Arial, sans-serif", backgroundColor: "#f5f5f5", padding: "20px", borderRadius: "8px", boxShadow: "0 0 10px rgba(0, 0, 0, 0.1)" }}>
+    <div className="container my-2" style={{ fontFamily: "Arial, sans-serif", backgroundColor: "#f5f5f5", padding: "20px", borderRadius: "8px", boxShadow: "0 0 10px rgba(0, 0, 0, 0.1)", color: "#000" }}>
       <h1 className="h1 text-center">Fill the Data</h1>
 
       {error && <div className="alert alert-danger"> {error} </div>}
